@@ -1,70 +1,239 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<title>The Next Policy Challenge</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub Tutorial</title>
 
-<link rel="stylesheet" href="stylesheets/styles.css">
-<link rel="stylesheet" href="stylesheets/pygment_trac.css">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-</head>
-<a href="https://github.com/NextPolicyChallenge"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork us on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
-<body>
-<div class="wrapper">
-<header>
-<h1><a href="http://nextpolicychallenge.github.io/">The Next Policy Challenge</a></h1>
-<p class="view"><a href="https://github.com/NextPolicyChallenge">View Our GitHub Profile</a></p>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  
+  <a href="https://github.com/NextPolicyChallenge"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://github-camo.global.ssl.fastly.net/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork us on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+  
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>The Next Policy Challenge</h1>
+        
+        <p class="view"><a href="https://github.com/NextPolicyChallenge">View Our GitHub Profile</a></p>
+        <p class="view"><a href="http://nextpolicychallenge.github.io/tutorial.html">View Our GitHub Tutorial</a></p>
 
-</header>
-<section>
+      </header>
+      <section>
+        <p>
+    </p>
 
-<h1><b>The Next Policy Challenge - GitHub Tutorial</b></h1>
-<h2><b>Objective</b></h2>
-<p class="p6">Most Git and GitHub tutorials you’ll find online start with the premise that people want to - or more accurately, the presenter thinks you should - understand the principles and mechanics of version control and what Git is. This tutorial skips all that and assumes that <b>you just want to get working with GitHub</b> with as <a href="http://readwrite.com/2013/09/11/github-for-everyone#awesm=~ow4yO7gECJf7fI">little difficulty as possible</a>, and that <b>you only want to work with text documents</b> once you’re there - not work with computer code. (A deeper question is <a href="https://docs.google.com/document/d/1bfUnRir6n7BTfx_GLYzPLF7gazrdsrcfpdBT6NHnmbk/edit?usp=sharing">why GitHub?</a> I’m not going to argue that GitHub is the way to do text collaboration, or even a good way. In fact, this tutorial is part of a <a href="https://docs.google.com/presentation/d/10X6SWQatKTMnrWU7riVB2Mz_887eZvYH0NXFISmNTE4/edit?usp=sharing">project</a> that will investigate in part whether GitHub is useful for large scale text collaboration and to observe how people use it).</p>
 
-<h2><b>Leaning Objectives</b></h2>
-<p class="p6">By the end of this tutorial, you will have:</p>
-<ol class="ol1">
-<li class="li7">signed up for a GitHub.com account and set up your account,</li>
-<li class="li7">created your first project (called a repo or repository) on GitHub.com,</li>
-<li class="li7">installed and configured Git and GitHub for desktop on you Mac or Windows computer,</li>
-<li class="li7">cloned a repo from your GitHub.com account to your desktop installation,</li>
-<li class="li7">made simple changes to a repo locally and synced those changes to your GitHub.com account,</li>
-<li class="li7">made simple changes to your repo on the GitHub.com site and synced those changes to your local GitHub installation,</li>
-<li class="li7">found other GitHub users,</li>
-<li class="li7">“forked a repo” (I swear, that’s what it’s called - “fork a repo” - go ahead, say it: it’s fun) from someone else on GitHub.com,</li>
-<li class="li7">submitted that changed repo to the original owner of the file as a suggested modification (this is called “issue a pull request”),</li>
-<li class="li7">managed pull requests from other people,</li>
-<li class="li7">updated your fork of the original repo, and</li>
-<li class="li7">created your own GitHub page.</li>
-</ol>
-<HR>
-<p class="p7">The remainder of this tutorial is currently available <a href="https://docs.google.com/document/d/17ZZqDhD-Ax4rmfma6Hi26RTREB-ApKZHzht5TBzWdjY/edit?usp=sharing">here</a>. Moving to <a href="http://nextpolicychallenge.github.io/tutorial.html">this space</a> soon.</p>
-<HR>
-<p class="p7">Images © 2014 GitHub Inc; © Apple Inc. 1983–2014; © Microsoft Corporation 2014. All rights reserved </p>
-Except as otherwise noted, GitHub Beginners Tutorial for the <a href="http://policychallenge.asu.edu">Next Policy Challenge</a> by <a href="http://jlphd.wordpress.com">Justin Longo</a> is licensed under a <a href="http://creativecommons.org/licenses/by-sa/4.0/deed.en_US">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Permissions beyond the scope of this license may be available.</p>
+<span>GitHub Tutorial</span><sup><a href="#cmnt1" name="cmnt_ref1">[a]</a></sup><span>&nbsp;</span></h1><h2 class="c14 c35"><a name="h.1h3cwii64bm2"></a><span>Objective</span></h2><p class="c6"><span>Most Git and GitHub tutorials you&rsquo;ll find online start with the premise that people want to - or more accurately, the presenter thinks you should - understand the principles and mechanics of version control and what Git is. I&rsquo;m going to skip all that and assume that you </span><span class="c13">just want to get working with GitHub</span><span>&nbsp;with as </span><span class="c4 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Freadwrite.com%2F2013%2F09%2F11%2Fgithub-for-everyone%23awesm%3D~ow4yO7gECJf7fI&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEq9bgiZGJC8h_-MYwPT2NHpfhpMg">little difficulty as possible</a></span><span>, and that you almost exclusively want to work </span><span class="c13">with </span><span class="c13">text documents</span><span>&nbsp;(what programmer</span><span>-types</span><span>&nbsp;call &ldquo;prose&rdquo;) </span><span>once you&rsquo;re there - not work with computer code.</span></p>
+<p class="c6"><span>A deeper question is </span><span class="c4 c2"><a class="c7" href="https://docs.google.com/document/d/1bfUnRir6n7BTfx_GLYzPLF7gazrdsrcfpdBT6NHnmbk/edit?usp=sharing">why GitHub</a></span><span>? I&rsquo;m not going to argue that GitHub is </span><span class="c34">the </span><span>way to do text collaboration, or even a good way. In fact, this tutorial is part of a </span><span class="c4 c2"><a class="c7" href="https://docs.google.com/presentation/d/10X6SWQatKTMnrWU7riVB2Mz_887eZvYH0NXFISmNTE4/edit?usp=sharing">project</a></span><span>&nbsp;that will investigate in part whether </span><span>GitHub is useful for large scale text collaboration, to try to understand how people use it and to develop better ways. </span></p>
+<p class="c0"><a href="#" name="fe48e623b13a6444eb0ee3549bdbe677832d35c6"></a><a href="#" name="0"></a></p>
+<table cellpadding="0" cellspacing="0" class="c24"><tbody><tr class="c28"><td class="c19"><h3 class="c6 c9 c14"><a name="h.bso6krc8ja8j"></a><span class="c13 c30">Driving, not engineering</span></h3><p class="c6 c9"><span>Though you can easily find someone who disagrees with this approach, I believe that - </span><span>if all you were wanting to do is to learn how to drive - it does not help you right now for me to open up the hood and show you how to check the oil</span><span class="c5">. If, after you have learned how to drive, you want to learn about how a car works, then you will have the context of being able to drive to apply to the mechanisms and principles of how the car works. But our focus today is learning how to get started using GitHub. Once you are collaborating with other people on text documents in GitHub, you can then pull back the layers of the parfait and dig more deeply into working with Git from the command line, understanding the principles of distributed version control and exploring the many facets of GitHub.</span></p></td></tr></tbody></table><h2 class="c14 c35"><a name="h.tuzvj1s49k2s"></a><span>Learning Objectives</span></h2><p class="c6"><span>By the end of this tutorial, you will have:</span></p><ol class="c20 lst-kix_cre9hxxo55pe-0 start" start="1"><li class="c6 c17"><span class="c2"><a class="c7" href="#id.av9xvl9k7h32">signed up for a GitHub.com account and set up your account</a></span><span>,</span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.ixxhrl7390yk">created your first project (called a repo or repository) on GitHub.com,</a></span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.3ex86kupjqx">found other GitHub users</a></span><span>,</span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.z68axixhtjrq">&ldquo;forked a repo&rdquo; (I swear, that&rsquo;s what it&rsquo;s called - &ldquo;fork a repo&rdquo; - go ahead, say it: it&rsquo;s fun) from someone else on GitHub.com,</a></span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.uyow0v96ykn5">flagged an issue, </a></span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.3jptxzvaw1gl">submitted a change to the owner of the file (called &ldquo;issue a pull request&rdquo;),</a></span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.ifjcjoximmid">managed pull requests from other people,</a></span><span>&nbsp;and</span></li><li class="c6 c17"><span class="c2"><a class="c7" href="#id.yxhis0cgcs1f">created your own GitHub web page</a></span><span>.</span></li></ol><p class="c0"><span></span><a href="#" name="id.av9xvl9k7h32"></a></p>
+<hr>
+<p class="c6"><span class="c13"><strong>1. </strong></span><strong><span class="c13">Setting Up GitHub.com</span></strong><span class="c13"></span></p><p class="c0"><span>First, you&rsquo;ll need to </span><span class="c2"><a class="c7" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHReqsuKT6C86HcgL4TbSevF24rxQ">sign up for an account</a></span><span>&nbsp;on GitHub.com. </span></p>
+<table width="653" border="1">
+  <tr>
+    <td width="451"><span class="c6 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 443.03px; height: 194.00px;"><img alt="" src="images/image26.png" style="width: 443.03px; height: 194.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="186"><p class="c6 c15">&nbsp;</p>
+      <p class="c6 c15">&nbsp;</p>
+      <p class="c6 c15"><span>&lt;-- Pick a username (no spaces), enter your email address and enter a password of your choosing. </span></p>
+      <p class="c6"><span>&lt;-- Click on &ldquo;Sign up for GitHub&rdquo; and the following page will appear:</span></p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="655" border="1">
+  <tr>
+    <td width="452"><span class="c6"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 439.00px; height: 376.39px;"><img alt="" src="images/image16.png" style="width: 439.00px; height: 376.39px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="187"><p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6"><span>&lt;-- Select the &ldquo;Free&rdquo; account.</span></p>
+      <p class="c6"><span>&lt;-- Do not select &ldquo;Help me set up an organization next&rdquo;.</span></p>
+      <p class="c6"><span>&lt;-- Click on &ldquo;Finish sign up&rdquo;.</span></p></td>
+  </tr>
+</table>
+<p><span>You&rsquo;ll receive a welcome email from GitHub at the email address you used to register.</span></p>
+<p class="c0"><span></span><span>The next page will look like this (get used to the Octocat - you&rsquo;ll see them a lot):</span></p>
+<p class="c6 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 377.33px;"><img alt="" src="images/image25.png" style="width: 624.00px; height: 377.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c6"><span>Before we create your first repo, let&rsquo;s </span><span class="c13">complete your user account set-up</span><span>: </span></p><ul class="c20 lst-kix_tmguu89sn7fb-0 start"><li class="c6 c17"><span>click on the wrench/screwdriver icon </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 121.00px; height: 34.65px;"><img alt="" src="images/image30.png" style="width: 121.00px; height: 34.65px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span>in the top right corner next to your name &nbsp;to open your user settings:</span></li>
+  </ul>
+<table width="534" border="1">
+  <tr>
+    <td width="199"><span class="c6"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 192.00px; height: 398.51px;"><img alt="" src="images/image19.png" style="width: 192.00px; height: 398.51px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="319"><p class="c6"><span>You should </span></p>
+      <ul class="c20 lst-kix_rydrgwmsq2jm-0 start">
+        <li class="c6 c17"><span class="c13">verify an email address</span><span>, </span></li>
+        <li class="c6 c17"><span>fill in your </span><span class="c13">profile info</span><span>&nbsp;and </span></li>
+        <li class="c6 c17"><span>click &ldquo;</span><span class="c13">Update</span><span>&rdquo; </span></li>
+      </ul>
+      <p class="c0"><span></span></p>
+      <p class="c6"><span>Pro tip: you can only get a profile picture using Gravatar</span> (maybe they changed that recently)</p>
+      <p class="c0"><span></span></p>
+      <p class="c6"><span>Check out the other settings available just to familiarize yourself with them - though most of these are not applicable to you just yet.</span></p></td>
+  </tr>
+</table>
+<p><span>When you&rsquo;re done and back at the main page, click on your name at the top right corner of the page </span><span>&nbsp;</span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 157.00px; height: 33.21px;"><img alt="" src="images/image14.png" style="width: 157.00px; height: 33.21px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""> </span><span>and you&rsquo;ll be taken to your brand new profile page:</span></p>
+<hr style="page-break-before:always;display:none;"><p class="c6 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 409.00px; height: 282.50px;"><img alt="" src="images/image23.png" style="width: 409.00px; height: 282.50px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+<hr>
+<strong><a href="#" name="id.ixxhrl7390yk"></a><span class="c13">2. Create your First Repo</span></strong><span class="c13"></span>
+<p class="c6"><span>A repo, or repository, is basically a new project - and it&rsquo;s really easy to create one. On your profile page, in the top-right corner, select the + icon and click on &ldquo;New repository&rdquo; to get to this page:</span></p>
+<table width="751" border="1">
+  <tr>
+    <td width="274"><span class="c0 c15"><span class="c6"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 263.43px; height: 282.00px;"><img alt="" src="images/image00.png" style="width: 263.43px; height: 282.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></span></td>
+    <td width="461"><p class="c6"><span>A few things you need to do here before you click &ldquo;Create Repository&rdquo;:</span></p>
+      <p class="c0"><span></span><span>&lt;-- choose a &ldquo;Repository name&rdquo;. You can click on the suggested name (hairy-octo-wallhack in this case) or choose your own.</span></p>
+      <p class="c6"><span>&lt;-- write a short description (&ldquo;My first repo!&rdquo; works)</span></p>
+      <p class="c0"><span></span><span>&lt;-- mark the repo as &ldquo;Public&rdquo;</span></p>
+      <p class="c0"><span></span><span>&lt;-- mark the check-box &ldquo;Initialize this repository with a README&rdquo;</span></p>
+      <p class="c6"><span>&lt;-- &ldquo;.gitignore&rdquo; = </span><span class="c13">None</span></p>
+      <p class="c6"><span>&lt;-- Licence = </span><span class="c13">None</span><span>&nbsp;(you can add </span><span class="c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fcreativecommons.org%2Fchoose%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEqTDwOXi450t6K4u9oA08u6Vda6g">Creative Commons</a></span><span>&nbsp;manually). </span></p>
+      <p class="c0"><span>&lt;-- Now click on &ldquo;Create Repository&rdquo;. </span></p></td>
+  </tr>
+</table>
+<p class="c6"><span>Congratulations - you just created your first repo!! </span></p>
+<p class="c6 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 441.00px; height: 251.75px;"><img alt="" src="images/image11.png" style="width: 441.00px; height: 251.75px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c6"><span>We&rsquo;ll come back here in a bit to edit this - but for now, well done! How easy was that?</span></p>
+<hr>
+<p class="c6"><strong><a href="#" name="id.3ex86kupjqx"></a><span class="c13">3. Connect with Other GitHub Users</span></strong><span class="c13"></span></p><p class="c6"><span>So far, we&rsquo;ve only used GitHub in isolation. But GitHub becomes much more interesting and powerful when you connect with other users. I&rsquo;ll touch on two ways to do that here:</span></p>
+<p class="c6"><span class="c13"><em>Follow A GitHub User</em></span><em><span>:</span></em><span> </span><span class="c8">GitHub lets you see what other people are working on and who they are connecting with. When you follow someone, you&#39;ll get notifications on your dashboard about their GitHub activity. In the search box&nbsp;on GitHub.com, type @username&nbsp;or a user&rsquo;s name to find people, or&nbsp;find projects you like and follow their owner. </span></p>
+<table width="770" border="1">
+  <tr>
+    <td width="512"><span class="c6"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 512.00px; height: 233.03px;"><img alt="" src="images/image24.png" style="width: 512.00px; height: 233.03px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="301"><p class="c0"><span class="c8">&lt;-- Once you are on one of their pages, click the &quot;follow&quot; button. </span><span class="c8">Follow in GitHub is similar to following someone in Twitter.</span></p>
+      <p class="c0"><span class="c8">(btw: check out Clay Shirky&rsquo;s Ted Talk &ldquo;</span><span class="c8 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fwww.ted.com%2Ftalks%2Fclay_shirky_how_the_internet_will_one_day_transform_government.html&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGAWxww-js92tO2DhXxD287v7pdMg">How the Internet will (one day) transform government</a></span><span class="c8">&rdquo; that is the inspiration for using GitHub in the </span><span class="c4 c8 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fpolicychallenge.asu.edu&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGJSyoErKw6ntGJtHr8jatS7uA3cg">Next Policy Challenge</a></span><span class="c8">)</span></p></td>
+  </tr>
+</table>
+<p class="c6"><span class="c8">If you&rsquo;re doing this tutorial in an organized group, this would be a good time to follow each other.</span></p>
+<p class="c0 c12"><span class="c13"><em>Watch A Project</em></span><span>: </span><span class="c8">Search for a&nbsp;project page&nbsp;(e.g., The White House &ldquo;We the People&rdquo; project) and then: </span></p>
+<table width="557" border="1">
+  <tr>
+    <td width="353"><span class="c6 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 350.00px; height: 331.33px;"><img alt="" src="images/image05.png" style="width: 350.00px; height: 331.33px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="266"><p class="c6 c10"><span class="c8">&lt;-- </span><span class="c8">click on the &quot;watch&quot; button at the top of the page. </span><span class="c8">&quot;Watch&quot; is like following a project, and means that you&#39;ll see all of that project&#39;s </span><span class="c8">commits </span><span class="c8">in your timeline.</span></p>
+      <p class="c0 c10"><span class="c8">You can also &ldquo;star&rdquo; a project to bookmark it.</span></p>
+      <p class="c0 c10"><span class="c8">And (as we&rsquo;ll see next), you can fork it.</span></p>
+      <p class="c0 c10">&nbsp;</p>
+      <p class="c0 c10">&nbsp;</p>
+      <p class="c0 c10">&nbsp;</p></td>
+  </tr>
+</table>
+<hr>
+<p class="c6"><span class="c13"><strong>4</strong></span><strong><a href="#" name="id.z68axixhtjrq"></a><span class="c13">. &ldquo;Fork a Repo&rdquo; </span></strong><span class="c13"></span></p><p class="c6"><span>Not only can you follow and watch other people and projects - you can also work on their projects without being asked. You may be interested to have a closer look at what they&rsquo;re doing, to contribute to their project, or use their work as the starting point for your own (but always </span><span class="c4 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Freadwrite.com%2F2013%2F07%2F16%2Fgithubs-wild-west-approach-to-licensing-has-hidden-costs%23awesm%3D~owbSGDSMSvpMs0&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEwu3oIM5B9qE5ZqTFuzGmsKpPPqA">pay </a></span><span class="c4 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Freadwrite.com%2F2013%2F07%2F16%2Fgithubs-wild-west-approach-to-licensing-has-hidden-costs%23awesm%3D~owbSGDSMSvpMs0&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEwu3oIM5B9qE5ZqTFuzGmsKpPPqA">attention to their licensing</a></span><span>&nbsp;- which should be clear in the project README file</span><span>)</span><span>. This is known as &quot;forking&quot; as in &ldquo;a fork in the road&rdquo;. </span></p><p class="c6"><span>To fork a project, just go to the repo you&rsquo;re interested in, and click the </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 54.00px; height: 20.00px;"><img alt="" src="images/image06.png" style="width: 54.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span>&nbsp;button. </span></p><p class="c0"><span>Some magic happens:</span></p><p class="c6 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 325.13px; height: 205.00px;"><img alt="" src="images/image04.png" style="width: 325.13px; height: 205.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+<p class="c6 c15"><span>And a few seconds later, the repo is now in your account:</span></p>
+<p class="c6"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 178.67px;"><img alt="" src="images/image07.png" style="width: 624.00px; height: 178.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+<hr>
+<strong><a href="#" name="id.uyow0v96ykn5"></a><span class="c13">5. &ldquo;Flag an Issue&rdquo;&nbsp;</span><span class="c11 c8">(as in, &ldquo;I have issues with this&rdquo;)</span></strong><span class="c11 c8"></span>
+<p class="c6 c10"><span class="c8">So </span><span class="c8">you come across a problem that you think needs to be fixed</span><span class="c8">, or you want to suggest an improvement. To help you keep track of these problems, each GitHub repository has a section called &ldquo;Issues&rdquo;. Go to the original repo (not the repo you forked to your account) on GitHub.com and click on the Issues tab:</span></p>
+<p class="c6 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 163.54px; height: 143.00px;"><img alt="" src="images/image12.png" style="width: 163.54px; height: 143.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p>
+<p class="c0 c10"><span class="c8"></span></p><p class="c6 c10"><span class="c8">Click on the </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 63.70px; height: 20.00px;"><img alt="" src="images/image27.png" style="width: 63.70px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span class="c8">button, enter a title and describe the issue.</span></p><p class="c0 c10"><span class="c8"></span></p><p class="c6 c10"><span class="c8">The owner of the original repo will receive a notification like this </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 112.00px; height: 44.04px;"><img alt="" src="images/image03.png" style="width: 112.00px; height: 44.04px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span class="c8">; then she&rsquo;ll read your issue and respond to it with either a comment or a one-button &ldquo;close &amp; comment&rdquo;:</span></p><p class="c6 c15 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 600.00px; height: 129.81px;"><img alt="" src="images/image20.png" style="width: 600.00px; height: 129.81px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c6 c10"><span class="c8">Go to your notifications where you&rsquo;ll see the response (you&rsquo;ll also receive an email notification if you&rsquo;re set up for that). </span></p><p class="c0 c10"><span class="c8">Also, see this </span><span class="c4 c8 c2"><a class="c7" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2Fwhitehouse%2Ffortyfour%2Fissues%2F3&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHLBjGVyO12sj8t7GTM4C5_uzPKmg">very fun issue comment thread</a></span><span class="c8">&nbsp;related to the </span><span class="c4 c8 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUnited_States_federal_government_shutdown_of_2013&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEjIJDpMToZQPOh_nsSHa_Jma8OeA">October 2013 government shutdown</a></span><span class="c8">.</span></p>
+<hr>
+<strong><a href="#" name="id.3jptxzvaw1gl"></a><span class="c8 c13">6. Issue a Pull Request</span><span class="c11 c8">&nbsp;(Issue &hellip; as in send)</span></strong><span class="c11 c8"></span>
+<p class="c6 c10"><span>Pull requests are how you tell other GitHub users that you think you can make their repo </span><span>better</span><span>&nbsp;- think of it as an issue with a proposed solution</span><span>. </span><span>Once a pull request is sent, the owner of the original repo can review the changes, discuss potential modifications, and decide if they want to incorporate them. </span></p><p class="c0 c10"><span>This is distinct from an </span><span class="c4 c2"><a class="c7" href="#id.uyow0v96ykn5">issue</a></span><span>&nbsp;(as in step 5, above, where you could indicate that you think you can make an improvement, but haven&#39;t actually gone about it yet). With a &ldquo;pull request&rdquo; you are suggesting a specific set of changes that you made in your own fork and you are asking the original owner to &ldquo;pull&rdquo; them into the original repo (a &quot;changeset&quot; or &quot;</span><span>patch</span><span>&quot;).</span></p>
+<p class="c0 c10"><span>There are several ways to change a file, but let&rsquo;s try the simplest way: say you find a spelling mistake on a page you&rsquo;re looking at that someone else owns:</span></p>
+<table width="950" border="1">
+  <tr>
+    <td width="383"><span class="c6 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 373.00px; height: 191.09px;"><img alt="" src="images/image08.png" style="width: 373.00px; height: 191.09px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="551"><p class="c6 c10"><span>&ldquo;Tutrial&rdquo;. Well that&rsquo;s just wrong.</span></p>
+      <p class="c0 c10"><span></span></p>
+      <p class="c6 c10"><span>&lt;-- Click the &ldquo;Edit&rdquo; button. Because this isn&rsquo;t your page, GitHub is going to automatically fork it for you. </span></p></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<table width="698" border="1">
+  <tr>
+    <td width="236"><p class="c6 c18 c10"><span>See the notice in the blue box? --&gt;</span>      </p>
+      <p class="c6 c10 c18"><span>No problem: make the change --&gt;</span></p></td>
+    <td width="446"><span class="c6 c18 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 444.94px; height: 82.00px;"><img alt="" src="images/image10.png" style="width: 444.94px; height: 82.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+  </tr>
+</table>
+<p class="c6 c18 c10"><span>Then scroll to the bottom of the page</span>:</p>
+<table width="698" border="1">
+  <tr>
+    <td width="420"><span class="c6 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 418.00px; height: 121.25px;"><img alt="" src="images/image13.png" style="width: 418.00px; height: 121.25px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="262"><p>&nbsp;</p>
+      <p>&lt;-- label your change and describe it
+      </p>
+      <p>&nbsp;</p>
+      <p>&lt;-- and then &ldquo;Propose file change&rdquo;</p></td>
+  </tr>
+</table>
+<p>On the next page you'll see this:</p>
+<table width="803" border="1">
+  <tr>
+    <td width="326"><span class="c6 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 316.00px; height: 159.44px;"><img alt="" src="images/image01.png" style="width: 316.00px; height: 159.44px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="461"><p class="c6 c10"><span>&lt;-- Your title and description are brought over from the previous page. </span></p>
+      <p class="c6 c10"><span>At the bottom of this page, you&rsquo;ll see the &ldquo;</span><span>diff</span><span>&rdquo; that shows precisely what you changed - things you deleted are in red, stuff you added is in green.</span></p>
+      <p class="c6 c10"><span>&lt;-- Click on &ldquo;Send pull </span><span>request</span><span>&rdquo;.</span> Now the owner of the file will receive your pull request</p></td>
+  </tr>
+</table>
+<hr>
+<p class="c6 c18 c10"><strong><a href="#" name="id.ifjcjoximmid"></a><span class="c13">7. Managing Pull Requests</span></strong><span class="c13"></span></p>
+<p class="c29"><span>So let&rsquo;s put you in the position of the person receiving the pull request. You receive a notification in GitHub.com </span><span>and</span><span>&nbsp;by email, and you now have to review and decide whether to accept it - i.e., to &ldquo;merge&rdquo; the pull request with your repo:</span></p><p class="c29"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 368.00px;"><img alt="" src="images/image21.png" style="width: 624.00px; height: 368.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c23"><span>When you receive a pull request, the first thing you do is review the set of proposed changes. Click on the &ldquo;Commits&rdquo; tab to see exactly what commits would be merged should the request be accepted:</span></p>
+<p class="c6 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 268.00px;"><img alt="" src="images/image09.png" style="width: 624.00px; height: 268.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c0 c10"><span>However, since there are four commits in this one pull request, and all commits are aimed at only one file, you will probably find it easier to review the &ldquo;cumulative diff&rdquo; across all commits. Click on the &ldquo;Files Changed&rdquo; tab to see this:</span></p>
+<p class="c6 c15 c10"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 583.70px; height: 572.00px;"><img alt="" src="images/image28.png" style="width: 583.70px; height: 572.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><a href="#" name="34273e0337997c7fc7906972e28f6a0eeb9a052f"></a><a href="#" name="1"></a><table cellpadding="0" cellspacing="0" class="c24"><tbody><tr class="c28"><td class="c19"><p class="c3"><span class="c5">After reviewing the basic description, commits, and the cumulative diff, you may have questions, comments or thanks for the person who submitted it. Notice how I added a note at line 10; this note has been sent to the person who initiated the pull request. Go back to the &ldquo;Conversation&rdquo; tab to communicate with the other person. The discussion view starts with the pull requester&#39;s original title and description of the pull request and then captures additional activity displayed chronologically from there.</span></p></td></tr></tbody></table><p class="c23 c31"><span class="c11"><strong>Merging a pull request</strong></span>
+</p>
+<p class="c25"><span class="c8">Once you&rsquo;re satisfied with the pull request, you can merge the pull request into your original repo. While there are several ways to do this, we&rsquo;re only going to cover the very simple way to do it on GitHub.com (because, believe me, it can get complicated - as if it hasn't already!). This process assumes there are no</span><span class="c8">&nbsp;conflicts in accepting the pull request and that the pull request can be automatically merged.</span> </p><p class="c21"><span class="c8">While viewing the pull request, in the </span><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 84.00px; height: 20.00px;"><img alt="" src="images/image18.png" style="width: 84.00px; height: 20.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span><span class="c8">view, you&rsquo;ll see this below all the pull request detail:</span></p><p class="c21 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 54.67px;"><img alt="" src="images/image22.png" style="width: 624.00px; height: 54.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c21 c12"><span class="c8">Click the &quot;Merge pull request&quot; button, enter a commit message and click &quot;Confirm merge&quot;</span></p><p class="c21"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 624.00px; height: 146.67px;"><img alt="" src="images/image15.png" style="width: 624.00px; height: 146.67px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c21"><span>This button merges the pull request into the original, sends a notification to the person who initiated the pull request and closes the pull request. That&rsquo;s one magic button.</span></p><p class="c23 c32"><span class="c11"><strong>Rejecting a pull request</strong></span></p>
+<p class="c25"><span>Maybe you&rsquo;re asking: what if you don&rsquo;t want to accept the proposed changes?</span></p>
+<table width="980" border="1">
+  <tr>
+    <td width="461"><span class="c25"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 456.35px; height: 274.00px;"><img alt="" src="images/image02.png" style="width: 456.35px; height: 274.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="503"><p class="c23 c31"><span>Closing a pull request wi</span><span>ll achieve this, though you will want to let the person who issued the pull request know why. </span></p>
+      <p class="c23 c32"><span class="c8"></span></p>
+      <p class="c23 c32"><span class="c8"></span></p>
+      <p class="c21"><span class="c8">&lt;-- </span><span class="c8">type your reason for rejecting the pull request and then click &ldquo;Close &amp; Comment&rdquo;.</span></p></td>
+  </tr>
+</table>
+<hr>
+<p class="c25"><span class="c13"><strong>8</strong></span><strong><a href="#" name="id.yxhis0cgcs1f"></a><span class="c13">. Creating your GitHub Page</span></strong><span class="c13"> &nbsp;</span></p>
+<p class="c6"><span>Okay, now we&rsquo;re going to show off your GitHub prowess to the world by creating your very-own webpage on GitHub called </span><span class="c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fpages.github.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNGoht6f50VsH_LkiQmtB75l0OwBZQ">Pages</a></span><span>. This is different than your profile page, but will link to it. </span></p><p class="c0"><span>First, you need to create a special repo in your account </span><span class="c8">dedicated to only the Pages files. </span></p>
+<table width="1028" border="1">
+  <tr>
+    <td width="415"><span class="c6"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 403.19px; height: 258.00px;"><img alt="" src="images/image17.png" style="width: 403.19px; height: 258.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="597"><p class="c6"><span class="c8">&lt;-- This repository must use the </span><span class="c11 c8">username/username</span><span class="c8">.github.io</span><span class="c8">&nbsp;naming scheme</span></p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6">&nbsp;</p>
+      <p class="c6"><span class="c0"><span class="c8">Next, create the repo as you did is </span><span class="c4 c8 c2"><a class="c7" href="#id.ixxhrl7390yk">step 2</a></span><span class="c8">&nbsp;above.</span></span></p></td>
+  </tr>
+</table>
+<p class="c0"><span class="c11 c8"><strong>Automatic Page Generator</strong></span></p>
+<p class="c25 c27"><span>Creating Pages with the automatic generator </span><span class="c8">is easy. </span><span class="c8">Go to the main</span><span class="c8">&nbsp;page for this dedicated repo you just created, and then click on &ldquo;Settings&rdquo; in the right-hand column. </span></p>
+<p class="c25 c27"><span class="c8">Scroll down to &ldquo;GitHub Pages&rdquo; and click on the magical &ldquo;Automatic Page Generator&rdquo; button.</span></p>
+<table width="942" border="1">
+  <tr>
+    <td width="420"><span class="c25 c15 c27"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 411.70px; height: 258.00px;"><img alt="" src="images/image31.png" style="width: 411.70px; height: 258.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></span></td>
+    <td width="506"><p class="c25 c27"><span class="c8">&lt;-- Enter what you want your homepage to say and click on &ldquo;Continue to Layouts.&rdquo; </span></p>
+      <p class="c16 c12"><span class="c8"></span></p></td>
+  </tr>
+</table>
+<p class="c25 c27"><span class="c8">Pick your favorite layout and click on the green checkmark to Publish your page. You&rsquo;ll find your awesome page at </span><span class="c4 c8 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fyourusername.github.io&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEnkkOG-Ea5Gk8EG-_8Xi9oPVvhFQ">http://</a></span><span class="c11 c4 c8 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fyourusername.github.io&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEnkkOG-Ea5Gk8EG-_8Xi9oPVvhFQ"><em>yourusername</em></a></span><span class="c4 c8 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fyourusername.github.io&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNEnkkOG-Ea5Gk8EG-_8Xi9oPVvhFQ">.github.io</a></span></p>
+<hr>
+<p class="c6"><span>That concludes this simplified introduction to using GitHub. Check back for </span><span>more tutorials</span> <span>on using GitHub for text collaboration. </span></p><p class="c6"><span>In the mean-time, if you want to practice in a low-risk fun way, why not help us write the next great (?) version of a </span><span class="c4 c2"><a class="c7" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2FNextPolicyChallenge%2Fcinderella-story&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFZLOiLYL3fCLMtQ2whFGWERrGgXw">Cinderella Story</a></span><span>?</span></p><hr><p class="c0"><span class="c1">I</span><span class="c1">mages &copy; 2014 </span><span class="c1"><a class="c7" href="https://www.google.com/url?q=https%3A%2F%2Fgithub.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHReqsuKT6C86HcgL4TbSevF24rxQ">GitHub Inc</a></span><span class="c1">. All rights reserved; &copy; Apple Inc. 1983&ndash;2014; &copy; Microsoft Corporation 2014</span></p>
+<p class="c6 c15"><span style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 88.00px; height: 31.00px;"><img alt="" src="images/image29.png" style="width: 88.00px; height: 31.00px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);" title=""></span></p><p class="c6 c15"><span class="c22">Except as otherwise noted, </span></p><p class="c6 c15"><span class="c1">GitHub Beginners Tutorial for the </span><span class="c1 c2 c4"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fnextpolicychallenge.github.io%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNHnfiFBkSXV2UsdrMDiVfGT-UfbzA">Next Policy Challenge</a></span><span class="c1">&nbsp;by </span><span class="c1 c4 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fjlphd.wordpress.com%2F&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNG6xak5ucv0J8QUoXsIzOWM3B-rqQ">Justin Longo</a></span><span class="c1">&nbsp;</span></p><p class="c6 c15"><span class="c1">is licensed under a </span><span class="c1 c4 c2"><a class="c7" href="http://www.google.com/url?q=http%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F4.0%2Fdeed.en_US&amp;sa=D&amp;sntz=1&amp;usg=AFQjCNFskSjPA4vpLLZ1QnsVHxV0gJ9Arw">Creative Commons Attribution-ShareAlike 4.0 International License</a></span><span class="c1">.</span></p><p class="c6 c15"><span class="c1">Permissions beyond the scope of this license may be available.</span></p>
+      </section>
+      <footer>
+        <p><small>A project of the <a href="https://www.asu.edu/">Arizona State University</a>  &mdash; <a href="http://asu-cpi.github.io/">Center for Policy Informatics</a></small></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+              <script type="text/javascript">
+            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+  <script type="text/javascript">
+            try {
+              var pageTracker = _gat._getTracker("UA-48108684-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+          </script>
 
-</section>
-<footer>
-<p><small>A project of the <a href="https://www.asu.edu/">Arizona State University</a> &mdash; <a href="http://asu-cpi.github.io/">Center for Policy Informatics</a></small></p>
-<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-</footer>
-</div>
-<script src="javascripts/scale.fix.js"></script>
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-48108684-1");
-pageTracker._trackPageview();
-} catch(err) {}
-</script>
 
-</body>
-</html>
+
+</body></html>
