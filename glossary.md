@@ -1,6 +1,6 @@
 ##Some Git and GitHub Vocabulary
 
-This is a small list of what I think are the most important terms to have at the ready. A fuller list can be found here. 
+This is a small list of what I think are the most important terms to have at the ready. 
 
 **Branch**: a parallel version of repository that does not affect the primary branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 
